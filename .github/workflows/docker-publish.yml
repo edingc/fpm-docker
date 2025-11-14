@@ -3,9 +3,9 @@ name: Build and push Docker image
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 env:
   REGISTRY: docker.io
